@@ -13,7 +13,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-    async function DRAKONIS_MD_PAIR_CODE() {
+    async function MKE_X_MD_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -75,11 +75,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "drakonis~" + string_session;
+                        let md = "MKE~X~MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, Drakonis-MD User!* 👋🏻
+                        let desc = `*Hey there, MKE-X-MD User!* 👋🏻
 
-Thanks for using *Drakonis-MD* — your session has been successfully created!
+Thanks for using *MKE-X-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -88,23 +88,23 @@ Thanks for using *Drakonis-MD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb6JYQ81noz7JAjOlg0t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/NaCkS-ai/Drakonis-MD 
+https://github.com/mKe-BOY99/MKE-X-MD
 
 ——————
 
-> *© Powered by Dev Sung*
+> *© Powered by Dev MKE*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ᴍᴀʟᴠɪɴ-xᴅ",
-thumbnailUrl: "https://files.catbox.moe/bi8y88.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+thumbnailUrl: " https://files.catbox.moe/z4do8f.jpeg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6JYQ81noz7JAjOlg0t",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -113,9 +113,9 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `Hey there, Drakonis-MD User!* 👋🏻
+                            let desc = `Hey there, MKE-X-MD User!* 👋🏻
 
-Thanks for using *Drakonis-MD* — your session has been successfully created!
+Thanks for using *MKE-X-MD* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -124,23 +124,23 @@ Thanks for using *Drakonis-MD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029Vb6JYQ81noz7JAjOlg0t
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/NaCkS-ai/Drakonis-MD 
+https://github.com/mKe-BOY99/MKE-X-MD 
 
 ——————
 
-> *© Powered by Dev Sung*
+> *© Powered by Dev MKE*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "draĸonιѕ-мd",
+title: "mke-x-md",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+sourceUrl: "https://whatsapp.com/channel/0029Vb6JYQ81noz7JAjOlg0t",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
